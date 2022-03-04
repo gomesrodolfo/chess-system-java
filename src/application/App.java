@@ -1,12 +1,12 @@
 package application;
 
-import boardgame.Board;
-import boardgame.ChessPosition;
+import Chess.ChessMatch;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
-        Board board = new Board(8,8);
-        System.out.println(board);
+        ChessMatch chessMatch = new ChessMatch();
+        UI.printBoard(chessMatch.getPieces());
+
     }
 }
