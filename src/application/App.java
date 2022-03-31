@@ -1,6 +1,6 @@
 package application;
 
-import Chess.ChessMatch;
+import chess.ChessMatch;
 
 public class App {
     public static void main(String[] args) {
